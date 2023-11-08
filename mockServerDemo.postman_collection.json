@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "2bd7e74e-f1c5-4d78-8df0-fa337c8376f5",
+		"name": "mockServerDemo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29122813"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://d2ee3993-80bf-455f-95f7-c4595c8f5e7b.mock.pstmn.io",
+					"protocol": "https",
+					"host": [
+						"d2ee3993-80bf-455f-95f7-c4595c8f5e7b",
+						"mock",
+						"pstmn",
+						"io"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://d2ee3993-80bf-455f-95f7-c4595c8f5e7b.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"d2ee3993-80bf-455f-95f7-c4595c8f5e7b",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\r\n    \"bookingid\": 4620,\r\n    \"booking\": {\r\n        \"firstname\": \"Madhuri\",\r\n        \"lastname\": \"Chinnareddygari\",\r\n        \"totalprice\": 111,\r\n        \"depositpaid\": true,\r\n        \"bookingdates\": {\r\n            \"checkin\": \"2018-01-01\",\r\n            \"checkout\": \"2019-01-01\"\r\n        },\r\n        \"additionalneeds\": \"Breakfast\"\r\n    }\r\n}"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://d2ee3993-80bf-455f-95f7-c4595c8f5e7b.mock.pstmn.io",
+							"protocol": "https",
+							"host": [
+								"d2ee3993-80bf-455f-95f7-c4595c8f5e7b",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 18 Oct 2023 16:29:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "339"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=4ffcdd97133671cd"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=08818581af9ff0fa"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "115"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1697646586"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"153-meN0hUkjsdKNvwKKt/jrqtlaGNM\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"bookingid\": 4620,\r\n    \"booking\": {\r\n        \"firstname\": \"Madhuri\",\r\n        \"lastname\": \"Chinnareddygari\",\r\n        \"totalprice\": 111,\r\n        \"depositpaid\": true,\r\n        \"bookingdates\": {\r\n            \"checkin\": \"2018-01-01\",\r\n            \"checkout\": \"2019-01-01\"\r\n        },\r\n        \"additionalneeds\": \"Breakfast\"\r\n    }\r\n}"
+				}
+			]
+		}
+	]
+}
